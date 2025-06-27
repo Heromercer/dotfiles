@@ -1,8 +1,7 @@
 [config.wallpaper]
 command = "swww"
-arguments = ["img", "--transition-type", "center", "--transition-fps", "144"]
+arguments = ["img", "--transition-type", "any", "--transition-fps", "144"]
 set = true
-
 
 [templates.kitty]
 input_path = '~/.config/matugen/templates/kitty-colors.conf'

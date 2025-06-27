@@ -2,7 +2,7 @@
     "layer": "top",
     "modules-left": ["custom/launcher", "clock", "hyprland/workspaces"],
     "modules-center": ["custom/media"],
-    "modules-right": ["custom/pacman", "custom/weather", "pulseaudio", "network", "custom/notifications"],
+    "modules-right": ["custom/pacman", "custom/weather", "pulseaudio", "tray", "network", "custom/notifications"],
 
     "custom/launcher": {
         "format": "󰣇",
@@ -92,6 +92,11 @@
     "scroll-step": 1,
     "on-click": "pavucontrol",
     "ignored-sinks": ["Easy Effects Sink"]
+  },
+
+  "tray": {
+    "icon-size": 21,
+    "spacing": 10
   },
 
   "network": {

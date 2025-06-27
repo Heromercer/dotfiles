@@ -25,6 +25,7 @@ tooltip label {
 #custom-launcher,
 #clock,
 #workspaces,
+#tray,
 #custom-notifications,
 #custom-media,
 #custom-pacman,
@@ -43,8 +44,15 @@ tooltip label {
   color: @primary;
 }
 
-#workspaces button {
+#tray {
+  padding: 0 8px;
 }
 
-#workspaces button.active {
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: @accent;
 }

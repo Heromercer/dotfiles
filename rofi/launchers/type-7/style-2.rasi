@@ -14,10 +14,10 @@ configuration {
 * {
     font:                        "JetBrains Mono Nerd Font Propo Medium 12";
     background:                  #141318;
-    background-alt:              #48454e;
-    foreground:                  #e6e1e9;
-    selected:                    #c9beff;
-    active:                      #c9beff;
+    background-alt:              #47464f;
+    foreground:                  #e5e1e9;
+    selected:                    #c7bfff;
+    active:                      #c7bfff;
     urgent:                      #ffb4ab;
 }
 
@@ -62,7 +62,7 @@ inputbar {
     spacing:                     10px;
     padding:                     80px 60px;
     background-color:            transparent;
-    background-image:            url("Pictures/wallpapers/frieren-tree.jpg", width);
+    background-image:            url("/home/alec/Pictures/wallpapers/rainy-evening.png", width);
     text-color:                  @foreground;
     orientation:                 horizontal;
     children:                    [ "textbox-prompt-colon", "entry", "dummy", "mode-switcher" ];
